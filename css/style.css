@@ -1,0 +1,128 @@
+body {
+  background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%), #20202D;
+}
+
+.container {
+  max-width: 945px;
+  margin: auto;
+}
+
+.header__wrapper {
+  margin-top: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 105px;
+}
+
+.header__wrapper_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main {
+  padding-bottom: 155px;
+}
+
+.main__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__description-tab {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 14px;
+  color: #FFBB01;
+  display: inline-block;
+  margin-top: 34px;
+}
+
+.main__description-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.main__description-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+  max-width: 420px;
+  margin-bottom: 38px;
+}
+
+.main__description_button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2E2E30;
+  padding: 24px 40px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FDDE76), to(#FFBB01));
+  background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+  border-radius: 5px 5px 10px 10px;
+  outline: none;
+}
+
+.main__avatar {
+  width: 380px;
+  height: 380px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid white;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.main__avatar-pic {
+  width: 380px;
+  height: 380px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=style.css.map */
