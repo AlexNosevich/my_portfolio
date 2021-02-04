@@ -1,5 +1,6 @@
 .projects
     padding-top: 135px
+    padding-bottom: 108px
 .section
     &-title
         margin-bottom: 76px
@@ -7,6 +8,11 @@
 .swiper
     position: relative
     &-pagination
+        left: 50%
+        margin-top: 35px
+        display: flex
+        justify-content: space-between
+        width: 70px
         &-bullet
             border: 2px solid #FFBB01
             box-sizing: border-box
@@ -46,18 +52,31 @@
             &_block
                 &_item
                     display: flex
-                    max-width: 153px
-                    flex-wrap: wrap
-                    justify-content: space-between
+                    max-width: 180px
+                    margin-top: 40px
+
+                    &-link
+                        margin-top: 15px
+                        text-decoration: none
+                        font-family: Roboto
+                        font-style: normal
+                        font-weight: normal
+                        font-size: 16px
+                        line-height: 19px
+                        color: #FFFFFF
+                    &-pic
+
                     &-title
                         font-family: Roboto
                         font-style: normal
                         font-weight: bold
                         font-size: 18px
                         line-height: 21px
+                        margin-bottom: 7px
 
                         color: #FFFFFF
                     &-text
+
                         font-family: Roboto
                         font-style: normal
                         font-weight: normal
@@ -66,3 +85,14 @@
 
                         color: #FFFFFF
                         width: 107px
+                    &-img
+                        width: 30px
+                        height: 30px
+                    &-wrap
+                        margin-left: 16px
+        &_main
+            display: flex
+            flex-direction: column
+
+#mt67
+    margin-top: 67px
