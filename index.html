@@ -346,7 +346,31 @@
             <div class="container">
                 <h2 class="section-title">Свяжитесь со мной</h2>
                 <div class="contact__container">
-                    <div class="contact__container_form"></div>
+                    <div class="contact__container_form">
+                        <p class="contact__container_form-title">
+                            Можете просто оставить заявку, я свяжусь с вами сегодня
+                        </p>
+                        <form action="send.php" method="POST" class="footer__form form">
+                            <div class="footer__input-group">
+                                <div class="footer__input-fild">
+                                    <img src="img/user-icon.png" class="footer__form-pic" alt="">
+                                    <input type="text" class="input footer__input" placeholder="Ваше имя" name="name" required
+                                        minlength="2" />
+                                </div>
+                                <div class="footer__input-fild">
+                                    <img src="img/phone-icon.svg" class="footer__form-pic" alt="">
+                                    <input type="tel" class="input footer__input phone" placeholder="Ваш телефон" name="phone" required
+                                        minlength="18" />
+                                </div>
+                            </div>
+                            <!-- /.footer__input-group -->
+                            <textarea class="message footer__message" placeholder="Message" name="message"></textarea>
+                            <div class="footer__info footer-item">
+                                <button class="button footer__button" type="submit">Отправить заявку</button>
+                                <span class="footer__info">* Required Fields</span>
+                            </div>
+                        </form>
+                    </div>
                     <div class="contact__container_wrapper">
                         <div class="contact__container_wrapper_data">
                             <h4 class="contact__container_wrapper_data-title"></h4>
