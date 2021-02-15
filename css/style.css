@@ -288,6 +288,10 @@ body {
   color: #FFFFFF;
 }
 
+.swiper-slide_wrapper_block_item-link:hover {
+  color: #A5A5A5;
+}
+
 .swiper-slide_wrapper_block_item-title {
   font-family: Roboto;
   font-style: normal;
@@ -331,12 +335,21 @@ body {
   margin-top: 67px;
 }
 
+.contact__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .contact__container_form {
   background: #FFFFFF;
   -webkit-box-shadow: -5px 5px 0px #FFC41D;
           box-shadow: -5px 5px 0px #FFC41D;
   border-radius: 5px;
-  max-width: 380px;
+  width: 380px;
 }
 
 .contact__container_form-title {
@@ -351,6 +364,66 @@ body {
   max-width: 285px;
   color: #000000;
   margin-bottom: 30px;
+}
+
+.contact__container_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 450px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contact__container_wrapper_data-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 15px;
+  color: #FFFFFF;
+}
+
+.contact__container_wrapper_data-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.contact__container_wrapper_data-text-link {
+  margin-right: 21px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.contact__container_wrapper_data-text-link:hover {
+  color: #A5A5A5;
+}
+
+.contact__container_links {
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer {
+  padding-bottom: 148px;
 }
 
 .footer__form {
@@ -550,5 +623,23 @@ body {
 .textarea {
   margin: auto;
   max-width: 264px;
+}
+
+#phone {
+  margin-right: 90px;
+}
+
+.mailto {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.mailto:hover {
+  color: #A5A5A5;
 }
 /*# sourceMappingURL=style.css.map */

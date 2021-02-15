@@ -1,11 +1,13 @@
 .contact
     &__container
+        display: flex
+        justify-content: space-between
         &_form
 
             background: #FFFFFF
             box-shadow: -5px 5px 0px #FFC41D
             border-radius: 5px
-            max-width: 380px
+            width: 380px
             &-title
                 font-family: Roboto
                 font-style: normal
@@ -19,8 +21,51 @@
                 max-width: 285px
                 color: #000000
                 margin-bottom: 30px
+        &_wrapper
+            display: flex
+            justify-content: space-between
+            max-width: 450px
+            flex-wrap: wrap
+
+            &_data
+                &-title
+                    font-family: Roboto
+                    font-style: normal
+                    font-weight: bold
+                    font-size: 24px
+                    line-height: 28px
+                    margin-bottom: 15px
+
+                    color: #FFFFFF
+                    &-links
+
+                &-text
+                    font-family: Roboto
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 16px
+                    line-height: 19px
+
+                    color: #FFFFFF
+                    &-link
+                        margin-right: 21px
+                        font-family: Roboto
+                        font-style: normal
+                        font-weight: normal
+                        font-size: 16px
+                        line-height: 19px
+
+                        color: #FFFFFF
+                        text-decoration: none
+                        &:hover
+                            color: #A5A5A5
+        &_links
+            width: 100px
+            display: flex
+            justify-content: space-between
 
 .footer
+    padding-bottom: 148px
     &__form
         padding-bottom: 48px
         &-pic
@@ -116,3 +161,17 @@
 .textarea
     margin: auto
     max-width: 264px
+
+#phone
+    margin-right: 90px
+.mailto
+    text-decoration: none
+    font-family: Roboto
+    font-style: normal
+    font-weight: normal
+    font-size: 16px
+    line-height: 19px
+
+    color: #FFFFFF
+    &:hover
+        color: #A5A5A5
